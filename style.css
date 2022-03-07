@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/* .boarders {
+    border: 2px solid red;
+} */
+
+.main_menu {
+    text-align: right;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.main_menu ul {
+    list-style-type: none;
+}
+
+.link-success{
+    color: greenyellow;
+}
+
+.intro {
+    width: 100%;
+    height: 800px;
+    padding: 20%;
+    background-image: url(codePicture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro h1 {
+    size: 200px;
+    font-family: 'Press Start 2P', cursive;
+    color: greenyellow;
+    /* color: #00FF66; */
+}
+
+.quotes {
+    padding: 50px;
+    height: 200px;
+    width: 100%;
+    /* background-color: #080f13; */
+    /* background-image:linear-gradient#010609, #080f13); */
+    background-image: linear-gradient(#010609, #080f13, #1e2328);
+}
+
+#about_me {
+    padding: 50px;
+    height: 300px;
+    /* background-color: #1e2328; */
+    background-image: linear-gradient(#1e2328, #283335);
+}
+
+/* .about_me .container img {
+    height: 200px;
+    width: 100%;
+} */
+#profile_pic {
+    width: 100%;
+    height: 200px;
+    background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.animation_bar {
+    height: 200px;
+    background-color: #283335;
+}
+
+.my_projects {
+    height: 300px;
+    background-color: #080f13;
+    background-image: linear-gradient(#283335, #080f13);
+}
+
+.my_projects img {
+    text-align: center;
+    width: 65%;
+}
+
+.my_projects .row .project_image {
+    height: 200px;
+}
+
+.contact_me {
+    background-color: #080f13;
+    height: 500px;
+}
+
+.conctact_me_forms {
+    height: 400px;
+}
+
+.bi-github{
+    align-content: flex-end;
+}
+
+footer p{
+    text-align: center;
+    background-image: linear-gradient(#080f13, #000000);
+}
